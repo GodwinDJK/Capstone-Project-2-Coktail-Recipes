@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Random Coktail Recepies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" 
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h1 class="mt-5"> <%= coktailName %> </h1>
+    <div class="recepiCon my-5 py-5 pb-2">
+        <h2>Ingredients</h2>
+        <div style="display: flex; justify-content: center;">
+            <p>
+                
+                <%= measure1 %> <%= ingredient1 %> <br>
+                <%= measure2 %> <%= ingredient2 %> <br>
+                <% if (ingredient3) { %>
+                    <%= measure3 %> <%= ingredient3 %> <br>
+                <% } %>
+                <% if (ingredient4) { %>
+                    <%= measure4 %> <%= ingredient4 %> <br>
+                <% } %>
+                <% if (ingredient5) { %>
+                    <%= measure5 %> <%= ingredient5 %> <br>
+                <% } %>
+                <% if (ingredient6) { %>
+                    <%= measure6 %> <%= ingredient6 %> <br>
+                <% } %>
+                <% if (ingredient7) { %>
+                    <%= measure7 %> <%= ingredient7 %> <br>
+                <% } %>
+                <% if (ingredient8) { %>
+                    <%= measure8 %> <%= ingredient8 %> <br>
+                <% } %>
+                <% if (ingredient9) { %>
+                    <%= measure9 %> <%= ingredient9 %> <br>
+                <% } %>
+                <% if (ingredient10) { %>
+                    <%= measure10 %> <%= ingredient10 %> <br>
+                <% } %>
+                <% if (ingredient11) { %>
+                    <%= measure11 %> <%= ingredient11 %> <br>
+                <% } %>
+                <% if (ingredient12) { %>
+                    <%= measure12 %> <%= ingredient12 %> <br>
+                <% } %>
+                <% if (ingredient13) { %>
+                    <%= measure13 %> <%= ingredient13 %> <br>
+                <% } %>
+                <% if (ingredient14) { %>
+                    <%= measure14 %> <%= ingredient14 %> <br>
+                <% } %>
+                <% if (ingredient15) { %>
+                    <%= measure15 %> <%= ingredient15 %> <br>
+                <% } %>
+                
+            </p>
+        </div>
+        
+        <h2>Instructions</h2>
+        <div style="display: flex; justify-content: center;">
+            <p class="w-50"><%= coktailInstructions %></p>
+        </div>
+    </div>
+</body>
+
+
+</html>
